@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/WebRoot/websocket-api.jar!/" />
+    <conelement value="com.genuitec.runtime.library/com.genuitec.generic_6.0" />
+    <conelement value="org.eclipse.jst.j2ee.internal.web.container" />
+    <conelement value="org.eclipse.jst.j2ee.internal.module.container" />
+    <conelement value="com.genuitec.runtime.library/com.genuitec.jstl_1.2.1" />
+    <conelement value="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/MyEclipse Tomcat v7.0" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/WebRoot/WEB-INF/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module-library" exported="">
+      <library name="websocket-api.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebRoot/websocket-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/WebRoot/websocket-api.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebRoot/WEB-INF/lib/fastjson-1.2.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/WebRoot/WEB-INF/lib/websocket-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
